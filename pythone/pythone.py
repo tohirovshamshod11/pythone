@@ -1,7 +1,7 @@
-# # a=1
-# # b=2
-# # c=a+b
-# # print(c)
+a=1
+b=2
+c=a+b
+print(c)
 # # for i in range(1,51):
 # #     if i % 5 == 0 and i % 3 == 0:
 # #         print(i,'FizzBuzz')
