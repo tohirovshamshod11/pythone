@@ -1,245 +1,245 @@
-a=1
-b=2
-c=a+b
-print(c)
-# # for i in range(1,51):
-# #     if i % 5 == 0 and i % 3 == 0:
-# #         print(i,'FizzBuzz')
-# #     elif i % 5 == 0:
-# #         print(i,'Buzz')
-# #     elif i % 3 == 0:
-# #         print(i,'Fizz')
-# #DICTINARY
-# # bobom = {'ism':'Baltayev Tohir','yosh':63,'t_yil':'1962','t_joy':'Xorazm viloyati'}
-# # print(bobom)
-# # buvim
-# # otam = {'ism':'Elmurod Baltayev','yosh':38,'t_yil':1968,'t_joy':'Xorazm viloyati'}
-# # print(otam)
-# # onam = {'ism':'Shahodat Karimova','yosh':38,'t_yil':1968,'t_joy':'Xorazm viloyati'}
-# # print(onam)
-# # talaba_0 = {
-# #     'ism':'alijon',
-# #     'familiya':'shamshiyev',
-# #     'yosh':22,
-# #     'fakultet':'matematika',
-# #     'kurs':4
-# #     }
+# a=1
+# b=2
+# c=a+b
+# print(c)
+# for i in range(1,51):
+#     if i % 5 == 0 and i % 3 == 0:
+#         print(i,'FizzBuzz')
+#     elif i % 5 == 0:
+#         print(i,'Buzz')
+#     elif i % 3 == 0:
+#         print(i,'Fizz')
+#DICTINARY
+# bobom = {'ism':'Baltayev Tohir','yosh':63,'t_yil':'1962','t_joy':'Xorazm viloyati'}
+# print(bobom)
+# buvim
+# otam = {'ism':'Elmurod Baltayev','yosh':38,'t_yil':1968,'t_joy':'Xorazm viloyati'}
+# print(otam)
+# onam = {'ism':'Shahodat Karimova','yosh':38,'t_yil':1968,'t_joy':'Xorazm viloyati'}
+# print(onam)
+# talaba_0 = {
+#     'ism':'alijon',
+#     'familiya':'shamshiyev',
+#     'yosh':22,
+#     'fakultet':'matematika',
+#     'kurs':4
+#     }
 
-# # print(talaba_0.items())
+# print(talaba_0.items())
 
-# #Ushbu metod yordamida lug'at ichidagi barcha kalit-qiymat juftliklarini ko'rishimiz mumkin
-# # 443
-# # print(talaba_1.items())
+#Ushbu metod yordamida lug'at ichidagi barcha kalit-qiymat juftliklarini ko'rishimiz mumkin
+# 443
+# print(talaba_1.items())
 
-# #Bu metodni to'g'ridan-to'g'ri emas, for tsikli yordamida chaqirish orqali lug'atdagi barcha elementlarni tushunarliroq shaklda ko'rishimiz mumkin.
+#Bu metodni to'g'ridan-to'g'ri emas, for tsikli yordamida chaqirish orqali lug'atdagi barcha elementlarni tushunarliroq shaklda ko'rishimiz mumkin.
 
-# # for kalit, qiymat in talaba_1.items():
-# #     print(f"Kalit: {kalit}")
-# #     print(f"Qiymat: {qiymat} \n")
+# for kalit, qiymat in talaba_1.items():
+#     print(f"Kalit: {kalit}")
+#     print(f"Qiymat: {qiymat} \n")
 
-# #Qisqartma shakli
-# # telefonlar = {
-# #     'Ustoz':'iphone 15 pro',
-# #     'Shamshod':'galaxy a34 5G',
-# #     'Shahzod':'Redmi iphonedan ko\'piya',
-# #     'Xusan':'A32',
-# #     'Xasan':'A10'   
-#     # }
-# # for k,q in telefonlar.items():
-# #     print(f"{k.title()} ning telefoni {q}")
-# # print(telefonlar.values())
+#Qisqartma shakli
+# telefonlar = {
+#     'Ustoz':'iphone 15 pro',
+#     'Shamshod':'galaxy a34 5G',
+#     'Shahzod':'Redmi iphonedan ko\'piya',
+#     'Xusan':'A32',
+#     'Xasan':'A10'   
+    # }
+# for k,q in telefonlar.items():
+#     print(f"{k.title()} ning telefoni {q}")
+# print(telefonlar.values())
 
-# #Amaliyot
-# #1
-# # izohli_lugat={
-# #     "Boolen":"Boolen - Mantiqiy qiymat",
-# #     "Float":"Float - Onlik son",
-# #     "For":"For - Biror amalni qayta-qayta bajarish",
-# #     "If":"If - Shartlarni tekshirish aperatori",
-# #     "Integer":"Integer - Butun son"
-# # }
-# # print(izohli_lugat["Boolen"])
-# # print(izohli_lugat["Float"])
-# # print(izohli_lugat["For"])
-# # print(izohli_lugat["If"])
-# # print(izohli_lugat["Integer"])
+#Amaliyot
+#1
+# izohli_lugat={
+#     "Boolen":"Boolen - Mantiqiy qiymat",
+#     "Float":"Float - Onlik son",
+#     "For":"For - Biror amalni qayta-qayta bajarish",
+#     "If":"If - Shartlarni tekshirish aperatori",
+#     "Integer":"Integer - Butun son"
+# }
+# print(izohli_lugat["Boolen"])
+# print(izohli_lugat["Float"])
+# print(izohli_lugat["For"])
+# print(izohli_lugat["If"])
+# print(izohli_lugat["Integer"])
 
-# #Nesting
+#Nesting
 
-# # car0 = {
-# #         'model':'lacetti',
-# #         'rang':'oq',
-# #         'yil':2018,
-# #         'narh':13000,
-# #         'km':50000,
-# #         'korobka':'avtomat'
-# #         }
+# car0 = {
+#         'model':'lacetti',
+#         'rang':'oq',
+#         'yil':2018,
+#         'narh':13000,
+#         'km':50000,
+#         'korobka':'avtomat'
+#         }
 
-# # car1 = {
-# #         'model':'nexia 3',
-# #         'rang':'qora',
-# #         'yil':2015,
-# #         'narh':9000,
-# #         'km':89000,
-# #         'korobka':'mexanika'
-# #         }
+# car1 = {
+#         'model':'nexia 3',
+#         'rang':'qora',
+#         'yil':2015,
+#         'narh':9000,
+#         'km':89000,
+#         'korobka':'mexanika'
+#         }
 
-# # car2 = {
-# #         'model':'gentra',
-# #         'rang':'qizil',
-# #         'yil':2019,
-# #         'narh':15000,
-# #         'km':20000,
-# #         'korobka':'mexanika'
-# #         }
-# # cars=(car0,car1,car2)
-# # for car in cars:
-# #     print(f"{car['model'].title()}, "
-# #           f"{car['rang']}rang, "
-# #           f"{car['yil']}-yil, {car['narh']}$" )4
+# car2 = {
+#         'model':'gentra',
+#         'rang':'qizil',
+#         'yil':2019,
+#         'narh':15000,
+#         'km':20000,
+#         'korobka':'mexanika'
+#         }
+# cars=(car0,car1,car2)
+# for car in cars:
+#     print(f"{car['model'].title()}, "
+#           f"{car['rang']}rang, "
+#           f"{car['yil']}-yil, {car['narh']}$" )4
 
-# # buxoriy = {'ism':'Abu Abdulloh Muhammad ibn Ismoil',
-# #            'tyil':810,
-# #            'vyil':870,
-# #            'tjoy':'Buxoro',
-# #            'yzasar':' „Al-jomeʼ as-sahih“, „Al-adab al-mufrad“, „At-tarix al-kabir“, „At-tarix as-sagʻir“, „At-tarix al-avsat“, „At-tafsir al-kabir“ „Birrul volidayn“, „Asmo as-sahoba“, „Kunyalar“ va boshqalar.'
-# #            }
+# buxoriy = {'ism':'Abu Abdulloh Muhammad ibn Ismoil',
+#            'tyil':810,
+#            'vyil':870,
+#            'tjoy':'Buxoro',
+#            'yzasar':' „Al-jomeʼ as-sahih“, „Al-adab al-mufrad“, „At-tarix al-kabir“, „At-tarix as-sagʻir“, „At-tarix al-avsat“, „At-tafsir al-kabir“ „Birrul volidayn“, „Asmo as-sahoba“, „Kunyalar“ va boshqalar.'
+#            }
 
-# # qodiriy = {'ism':'Abdulla Qodiriy',
-# #            'tyil':1894,
-# #            'vyil':1938,
-# #            'tjoy':'Toshkent'
-# #            }
+# qodiriy = {'ism':'Abdulla Qodiriy',
+#            'tyil':1894,
+#            'vyil':1938,
+#            'tjoy':'Toshkent'
+#            }
 
-# # vohidov = {'ism':'Erkin Vohidov',
-# #            'tyil':1936,
-# #            'vyil':2016,
-# #            'tjoy':"Farg'ona"
-# #            }
+# vohidov = {'ism':'Erkin Vohidov',
+#            'tyil':1936,
+#            'vyil':2016,
+#            'tjoy':"Farg'ona"
+#            }
 
-# # navoiy = {'ism':'Alisher Navoiy',
-# #            'tyil':1441,
-# #            'vyil':1501,
-# #            'tjoy':"Xirot"
-# #            }
-# # shaxslar=[buxoriy,qodiriy,vohidov,navoiy]
+# navoiy = {'ism':'Alisher Navoiy',
+#            'tyil':1441,
+#            'vyil':1501,
+#            'tjoy':"Xirot"
+#            }
+# shaxslar=[buxoriy,qodiriy,vohidov,navoiy]
 
-# # for shaxs in shaxslar:
-# #     ism = ['ism']
-# #     tyil = ['tyil']
-# #     vyil = ['vyil']
-# #     tjoy = ['tjoy']
-# #     print(f"{ism} {tyil}-yilda {tjoy}da tavallud topgan. "
-# #           f"{vyil-tyil} yil umr ko'rgan.")
-# # print('Buxoriyning mashxur asarlari:')
-# # print(buxoriy['yzasar'])
-# #O'TILGANLAR BILAN ISHLASH
-# #1
-# # car_1 = {
-# #     'Model':'Cobalt',
-# #     'rangi':'Oq',
-# #     'carobka':'Mexanik'
-# #          }
-# # print(car_1)
-# #2
-# # fish={}
-# # fish = {
-# #     'ism':'shamshod',
-# #     'fam':'Tohirov',
-# #     't_yil':'2010',
-# #     't_kun':'5-iyul',
-# # }
-# # print(f"{fish['fam'].title()}, {fish['ism'].title()},{fish['t_yil']}-yil,{fish['t_kun']}da tug'ilgan")
-# #3
-# # fish1 = {
-# #     'ism':'shamshod tohirov',
-# #     'mk':'11',
-# #     'yosh':'14'
-# # }
-# # print(f"Ismi:{fish1['ism'].title()},{fish1['mk']}-maktabda taxsil oladi,{fish1['yosh']}-yoshda.")
-# #4
-# # phone = fish1.get('Shamshod','Shamshod bunday ism yoq kuuu')
-# # print(phone)
-# #5
-# # bobom = {'ism':'Baltayev Tohir','yosh':63,'t_yil':1962,'t_joy':'Xorazm viloyati'}
-# # buvim={'ism':'Rozmetova Nazira','yosh':63,'t_yil':1962,'t_joy':'Xorazm viloyati'}
-# # otam = {'ism':'Elmurod Baltayev','yosh':38,'t_yil':1968,'t_joy':'Xorazm viloyati'}
-# # onam = {'ism':'Shahodat Karimova','yosh':38,'t_yil':1968,'t_joy':'Xorazm viloyati'}
-# # print(f"{bobom['ism']},{bobom['t_yil']}-yilda,{bobom['t_joy']}-da tugilgan,{bobom['yosh']}-yoshda")
-# # print(f"{buvim['ism']},{buvim['t_yil']}-yilda,{buvim['t_joy']}-da tugilgan,{buvim['yosh']}-yoshda")
-# # print(f"{otam['ism']},{otam['t_yil']}-yilda,{otam['t_joy']}-da tugilgan,{otam['yosh']}-yoshda")
-# # print(f"{onam['ism']},{onam['t_yil']}-yilda,{onam['t_joy']}-da tugilgan,{onam['yosh']}-yoshda")
+# for shaxs in shaxslar:
+#     ism = ['ism']
+#     tyil = ['tyil']
+#     vyil = ['vyil']
+#     tjoy = ['tjoy']
+#     print(f"{ism} {tyil}-yilda {tjoy}da tavallud topgan. "
+#           f"{vyil-tyil} yil umr ko'rgan.")
+# print('Buxoriyning mashxur asarlari:')
+# print(buxoriy['yzasar'])
+#O'TILGANLAR BILAN ISHLASH
+#1
+# car_1 = {
+#     'Model':'Cobalt',
+#     'rangi':'Oq',
+#     'carobka':'Mexanik'
+#          }
+# print(car_1)
+#2
+# fish={}
+# fish = {
+#     'ism':'shamshod',
+#     'fam':'Tohirov',
+#     't_yil':'2010',
+#     't_kun':'5-iyul',
+# }
+# print(f"{fish['fam'].title()}, {fish['ism'].title()},{fish['t_yil']}-yil,{fish['t_kun']}da tug'ilgan")
+#3
+# fish1 = {
+#     'ism':'shamshod tohirov',
+#     'mk':'11',
+#     'yosh':'14'
+# }
+# print(f"Ismi:{fish1['ism'].title()},{fish1['mk']}-maktabda taxsil oladi,{fish1['yosh']}-yoshda.")
+#4
+# phone = fish1.get('Shamshod','Shamshod bunday ism yoq kuuu')
+# print(phone)
+#5
+# bobom = {'ism':'Baltayev Tohir','yosh':63,'t_yil':1962,'t_joy':'Xorazm viloyati'}
+# buvim={'ism':'Rozmetova Nazira','yosh':63,'t_yil':1962,'t_joy':'Xorazm viloyati'}
+# otam = {'ism':'Elmurod Baltayev','yosh':38,'t_yil':1968,'t_joy':'Xorazm viloyati'}
+# onam = {'ism':'Shahodat Karimova','yosh':38,'t_yil':1968,'t_joy':'Xorazm viloyati'}
+# print(f"{bobom['ism']},{bobom['t_yil']}-yilda,{bobom['t_joy']}-da tugilgan,{bobom['yosh']}-yoshda")
+# print(f"{buvim['ism']},{buvim['t_yil']}-yilda,{buvim['t_joy']}-da tugilgan,{buvim['yosh']}-yoshda")
+# print(f"{otam['ism']},{otam['t_yil']}-yilda,{otam['t_joy']}-da tugilgan,{otam['yosh']}-yoshda")
+# print(f"{onam['ism']},{onam['t_yil']}-yilda,{onam['t_joy']}-da tugilgan,{onam['yosh']}-yoshda")
 
-# # LUG'AT ELEMENTLARI BILAN ISHLASH
+# LUG'AT ELEMENTLARI BILAN ISHLASH
 
-# #1 items() Metodi
-# # oquvchi ={
-# #     'ism':'shamshodbek tohirov',
-# #     'yosh':'14',
-# #     'tugilgan yil':'2010',
-# #     'tuguilgan joy':'xorazm viloyati'
-# # }
-# # print(oquvchi['ism'].title())
+#1 items() Metodi
+# oquvchi ={
+#     'ism':'shamshodbek tohirov',
+#     'yosh':'14',
+#     'tugilgan yil':'2010',
+#     'tuguilgan joy':'xorazm viloyati'
+# }
+# print(oquvchi['ism'].title())
 
-# #2 items()ni for bilan iwlatw
-# # for kalit,qiymat in oquvchi.items():
-# #     print(f"kalit: {kalit}")
-# #     print(f"qiymat: {qiymat} \n")
+#2 items()ni for bilan iwlatw
+# for kalit,qiymat in oquvchi.items():
+#     print(f"kalit: {kalit}")
+#     print(f"qiymat: {qiymat} \n")
 
-# #3 Chiroyli ko'rinishda iwlaw
+#3 Chiroyli ko'rinishda iwlaw
 # telefonlar = {
 #     'Shamshod':'A34',
 #     'Behruz':'A 01',
 #     'Shahzod':'Redmi',
 #     'Shelli':'A10'
 # }
-# # for k, q in telefonlar.items():
-# #     print(f"{k.title()}ning telefoni:{q}")
+# for k, q in telefonlar.items():
+#     print(f"{k.title()}ning telefoni:{q}")
 
-# #4
+#4
 # narsalar  = {
 #     'olma':'1200',
 #     'nok':'1300',
 #     'bexi':'2000',
 #     'olxori':'1500'
 # }
-# # print('Do\'kondagi maxsulotlar')
-# # for narsa in narsalar
+# print('Do\'kondagi maxsulotlar')
+# for narsa in narsalar
 
-# #5 Tepadagi codni yaxshiroq qilib chiqaramiz
+#5 Tepadagi codni yaxshiroq qilib chiqaramiz
 
 # bozorlik = ['olma','nok','bexi','banan']
-# # for narsa in narsalar:
-# #     if narsa in bozorlik:
-# #         print(f"{narsa.title()}:{narsalar[narsa]}")
+# for narsa in narsalar:
+#     if narsa in bozorlik:
+#         print(f"{narsa.title()}:{narsalar[narsa]}")
 
-# #6 Tepadagi codda yoq narsani qanday chiqarishni o'rganamiz
-# # for buyum in bozorlik:
-# #     if buyum  not in narsalar:
-# #         print(f"Iltimos do'koningizga {buyum.title()} ham olib kelib qo'ying")
+#6 Tepadagi codda yoq narsani qanday chiqarishni o'rganamiz
+# for buyum in bozorlik:
+#     if buyum  not in narsalar:
+#         print(f"Iltimos do'koningizga {buyum.title()} ham olib kelib qo'ying")
 
-# #7 .values() METODI
+#7 .values() METODI
 
-# # print(telefonlar.values())
+# print(telefonlar.values())
 
-# #8 values() dan foydalanib ajoyib narsa yaratamiz 
+#8 values() dan foydalanib ajoyib narsa yaratamiz 
 
-# # print('Do\'stlarimiz foydalaniladigan telefonlar:')
-# # for tel in telefonlar.values():
-# #     print(tel)
+# print('Do\'stlarimiz foydalaniladigan telefonlar:')
+# for tel in telefonlar.values():
+#     print(tel)
 
-# #9 AMALIYOT
-# #1
-# # bir = {
-# #     'Boolen':'Mantiqiy qiymat',
-# #     'Float':'O\'nlik son',
-# #     'For':'Biror amalni qayta-qayta bajarish',
-# #     'If':'Shartlarni tekshirish',
-# #     'Integer':'Butun son'
-# # }
-# # print(sorted(bir))
+#9 AMALIYOT
+#1
+# bir = {
+#     'Boolen':'Mantiqiy qiymat',
+#     'Float':'O\'nlik son',
+#     'For':'Biror amalni qayta-qayta bajarish',
+#     'If':'Shartlarni tekshirish',
+#     'Integer':'Butun son'
+# }
+# print(sorted(bir))
 
-# #2
+#2
 # dav = {
 #     'Aqsh':'Washington',
 #     'italiya':'Rim',
@@ -251,39 +251,39 @@ print(c)
 #     'Singapur':'Singapur',
 #     'Tojikiston':'Bishkek'
 # }
-# # print('Dunyo davlatlari:   Davlatlarning poytaxtlari:')
-# # for k,q in dav.items():
-# #     print(k, "   ", q)
+# print('Dunyo davlatlari:   Davlatlarning poytaxtlari:')
+# for k,q in dav.items():
+#     print(k, "   ", q)
 
-# #3 
-# # davvlat=input('Hohlagan davlatingizni kiriting>>>>>>')
-# # if davvlat in dav:
-# #     print(f"{davvlat}ning poytaxti.{dav}[dav]")
-# # else:
-# #     if davvlat not in dav:
-# #         print("Bizda bunday poytaxt yo'q")
+#3 
+# davvlat=input('Hohlagan davlatingizni kiriting>>>>>>')
+# if davvlat in dav:
+#     print(f"{davvlat}ning poytaxti.{dav}[dav]")
+# else:
+#     if davvlat not in dav:
+#         print("Bizda bunday poytaxt yo'q")
 
-# #4
-# # ovqatlar = {
-# #     'Osh':'50000',
-# #     'Manti':'40000',
-# #     'Suzma':'20000',
-# #     'Shaovla':'2000',
-# #     'Baliq':'60000',
-# #     'Qovurilgan baliq':'65000',
-# #     'Dimlangan baliq':'120000',
-# #     'Tovuq oyoqlari':'30000',
-# #     'Steyk':'70000',
-# #     'Omlet':'15000'
-# # }
-# # print('Bizning restoranimizda barcha ovqatlar hozirgi vaqatda skidkada.')
-# # taom = input('3 ta ovqat buyurtma qilishingiz mumkin>>>>>')
-# # buyurtmalar = []
-# # for ovqat in ovqatlar:
+#4
+# ovqatlar = {
+#     'Osh':'50000',
+#     'Manti':'40000',
+#     'Suzma':'20000',
+#     'Shaovla':'2000',
+#     'Baliq':'60000',
+#     'Qovurilgan baliq':'65000',
+#     'Dimlangan baliq':'120000',
+#     'Tovuq oyoqlari':'30000',
+#     'Steyk':'70000',
+#     'Omlet':'15000'
+# }
+# print('Bizning restoranimizda barcha ovqatlar hozirgi vaqatda skidkada.')
+# taom = input('3 ta ovqat buyurtma qilishingiz mumkin>>>>>')
+# buyurtmalar = []
+# for ovqat in ovqatlar:
 
-# #NESTING
+#NESTING
 
-# #1
+#1
 # car_1 = {
 #     'model':'Cobalt',
 #     'rang':'Oq',
@@ -296,51 +296,51 @@ print(c)
 #     'yil':'1999',
 #     'karobka':'Mexanik'
 # }
-# # cars = [car_1, car_2]
-# # for car in cars:
-# #     print(f"{car['model']}, "
-# #           f"{car['rang']} rang",
-# #           f"{car['yil']}-yil",
-# #           f"{car['karobka']}"
-# #     )
+# cars = [car_1, car_2]
+# for car in cars:
+#     print(f"{car['model']}, "
+#           f"{car['rang']} rang",
+#           f"{car['yil']}-yil",
+#           f"{car['karobka']}"
+#     )
 
-# #2
-# # print(cars[1])
+#2
+# print(cars[1])
 
-# #3
-# # malibu = []
-# # for n in range(10):
-# #     malibus = {
-# #         'rusumi':'Malibu',
-# #         'rangi':'None',
-# #         'yil':'2023',
-# #         'narxi':'None',
-# #         'karobka':'Avtomat'
-# #     }
-# #     for malibu in malibus[:5]:
-# #         malibu['rang']='qora'
-# #         for malibu in malibus[6:8]:
-# #             malibu['rang']='ko\'k'
-# #             for malibu in malibus[9:10]:
-# #                 malibu['rang']='oq'
-# #     print(malibus)
+#3
+# malibu = []
+# for n in range(10):
+#     malibus = {
+#         'rusumi':'Malibu',
+#         'rangi':'None',
+#         'yil':'2023',
+#         'narxi':'None',
+#         'karobka':'Avtomat'
+#     }
+#     for malibu in malibus[:5]:
+#         malibu['rang']='qora'
+#         for malibu in malibus[6:8]:
+#             malibu['rang']='ko\'k'
+#             for malibu in malibus[9:10]:
+#                 malibu['rang']='oq'
+#     print(malibus)
 
-# #4
-# # dasturchilar = {
-# #     'Shamshod':['Html','Css','Phyton'],
-# #     'Shahzod':['Html','Java'],
-# #     'Behruz':['C++','Java Scrip'],
-# #     'Sherzod':['Phyton','Php']
-# # }
-# # for k,q in dasturchilar.items():
-# #     print(f"\n{k} quyidagi dasturlash tillarni biladi:")
-# #     for til in q:
-# #         print(til.upper())
+#4
+# dasturchilar = {
+#     'Shamshod':['Html','Css','Phyton'],
+#     'Shahzod':['Html','Java'],
+#     'Behruz':['C++','Java Scrip'],
+#     'Sherzod':['Phyton','Php']
+# }
+# for k,q in dasturchilar.items():
+#     print(f"\n{k} quyidagi dasturlash tillarni biladi:")
+#     for til in q:
+#         print(til.upper())
 
-# #5
-# #Amaliy 1 da
+#5
+#Amaliy 1 da
 
-# # #AMALIYOT
+# #AMALIYOT
 # buyuklar = {
 # 'qodiriy' = {'ism':'Abdulla Qodiriy',
 #            'tyil':1894,
@@ -364,12 +364,12 @@ print(c)
 #            'asarlar':["Xamsa","Lison ut-Tayr","Mahbub Al-Qulub",'Munojot']
 #            }
 # }
-# # print('Buyuk allomalar')
-# # print(f"{qodiriy['ism']} {qodiriy['tyil']}-yilda {qodiriy['tjoy']} shahrida tug'ilgan. {qodiriy['vyil']}-yilda vafot etgan.\n")
-# # print(f"{vohidov['ism']} {vohidov['tyil']}-yilda{vohidov['tjoy']} viloyatida tug'ilgan. {vohidov['vyil']}-yilda vafot etgan.\n")
-# # print(f"{navoiy['ism']} {navoiy['tyil']}-yilda {navoiy['tjoy']} shahrida tug'ilgan. {navoiy['vyil']}-yilda vafot etgan.")
+# print('Buyuk allomalar')
+# print(f"{qodiriy['ism']} {qodiriy['tyil']}-yilda {qodiriy['tjoy']} shahrida tug'ilgan. {qodiriy['vyil']}-yilda vafot etgan.\n")
+# print(f"{vohidov['ism']} {vohidov['tyil']}-yilda{vohidov['tjoy']} viloyatida tug'ilgan. {vohidov['vyil']}-yilda vafot etgan.\n")
+# print(f"{navoiy['ism']} {navoiy['tyil']}-yilda {navoiy['tjoy']} shahrida tug'ilgan. {navoiy['vyil']}-yilda vafot etgan.")
 
-# #2
+#2
 # shaxslar_a = [vohidov,qodiriy,navoiy]
 # for shaxs in shaxslar_a:
 #     ism = shaxs['ism']
@@ -378,20 +378,20 @@ print(c)
 #     for asar in  asarlar:
 #         print(asar)
 
-# #3
-# # birinchi = input('\'Ozingizning yoqtirgan 3 ta filmingizni yozing>>>>')
-# # kinolar = {
-# #     'ali':['Terminator','Rambo','Titanic'],
-# #     'vali':['Tenet','Inception','Interstellar'],
-# #     'hasan':['Abdullajon','Bomba','Shaytanat'],
-# #     'husan':['Mahallada duv-duv gap','John Wick']
-# #     }
-# # if k,kinolar in kinolar:
-# #     print(f"\n{ism[kinolar]}")
+#3
+# birinchi = input('\'Ozingizning yoqtirgan 3 ta filmingizni yozing>>>>')
+# kinolar = {
+#     'ali':['Terminator','Rambo','Titanic'],
+#     'vali':['Tenet','Inception','Interstellar'],
+#     'hasan':['Abdullajon','Bomba','Shaytanat'],
+#     'husan':['Mahallada duv-duv gap','John Wick']
+#     }
+# if k,kinolar in kinolar:
+#     print(f"\n{ism[kinolar]}")
 
-# #TEstlar
+#TEstlar
 
-# #1
+#1
 # my_list = []
 
 # my_list.append(3)
@@ -641,8 +641,8 @@ print(c)
 # yosh = input(savol)
 # yosh = int(yosh)
 # height = input('Bo\'yingiz necha santimetr:')
-# height = int(height)
-# hammasi = (f"Siz haqingizda malumot:Ismingiz {ism} yoshingiz {yosh} bo'yingiz {height}cm")
+# height = float(height)
+# hammasi = (f"Siz haqingizda malumot:Ismingiz {ism} yoshingiz {yosh} da bo'yingiz {height}cm")
 # print(hammasi)
 
 #4
@@ -976,15 +976,16 @@ print(c)
     # print(son(1,2,3)*2)
 
 #Takrorlash
+
 #1
 # ism = "Shamshodbek"
 # print(f"Mening ismim + {ism}")
 
 #2
-ism = "Shamshodbek"
-familiya = "Tohirov"
-ism_fam = f"{familiya} {ism}"
-# print(ism_fam)
+# ism = "shamshodbek"
+# familiya = "tohirov"
+# ism_fam = f"{familiya} {ism}"
+# # print(ism_fam)
 
 #3
 # print(f"Salom mening ismim {ism}.{ism} {familiya}")
@@ -997,3 +998,102 @@ ism_fam = f"{familiya} {ism}"
 
 # print(ism_fam.upper())
 #6
+
+#7
+# print(ism_fam.capitalize())
+
+# print(ism_fam.title())
+
+#8
+# meva = "     olma    "
+# print(f"Meni yaxshi ko'radigan mevam {meva.lstrip()} men {meva.lstrip()}ni yaxsh ko'raman.")
+# print(f"Meni yaxshi ko'radigan mevam {meva.rstrip()} men {meva.rstrip()}ni yaxsh ko'raman.")
+# print(f"Meni yaxshi ko'radigan mevam {meva.strip()} men {meva.strip()}ni yaxsh ko'raman.")
+
+#9
+
+# sora =input("Ismingiz nimaa>>>>")
+# print(f"Demak sizning ismingiz {sora.title()}.Tanishganimdan hursandman {sora.title()}.")
+
+#10
+# odamlar = ['ali','vali','shamshod','shahzod']
+# for mehmonlar in odamlar:
+#     print(mehmonlar.title())
+
+#11
+# sonlar = list(range(1,21))
+# for son in sonlar:
+#     print(f"{son} ning kvadrati {son**2}ga teng.")
+
+#12
+# avtolar = ['audi','bmw','volvo','kia','hyundai']
+# for avtro in avtolar:
+#     if avtro=='bmw':
+#         print(avtro.upper())
+#     else:
+#         print(avtro.title())
+
+#13
+# ism = 'shamshod'
+# if ism == 'shamsod':
+#     print("True")
+# else:
+#     print("Folse")
+
+#14
+
+#Amaliyot
+#1 va 2 mashqlar bittada
+# kocha="Kulollar"
+# mahalla="Do'stlik"
+# tuman="Madir" 
+# viloyat="Xorazm viloyati"
+# print(f"Mening mahallam {mahalla},ko'cham {kocha},tumanim {tuman}, viloyatim {viloyat}da yashayman.")
+
+#3
+# a= print("Keling biz siz bilan sizning mahlalla ,ko'cha,tuman va viloyatingizni ro'yhatini tuzamiz.")
+# viloyoat = input("Viloyatingizni kiriting:")
+# maxalla = input("Mahallangizni kirirting:")
+# tuman = input("Tumaningizni kiriting:")
+# kocha = input("Ko'changizni kiriting:")
+# print(f"Sizning viloyatingiz {viloyoat.title()},mahallangiz {maxalla.title()},tumaningiz {tuman.title()} va ko'changiz {kocha.title()}da yashar ekansiz.")
+
+# def avto_info(kompaniya, model, rangi, korobka, yili, narhi=None):
+#     """Avtomobil haqidagi ma'lumotlarni lug'at ko'rinishida qaytaruvchi funksiya"""
+#     avto = {'kompaniya':kompaniya,
+#             'model':model,
+#             'rang':rangi,
+#             'korobka':korobka,
+#             'yil':yili,
+#             'narh':narhi}
+#     return avto
+
+# def avto_kirit():
+#     """Foydalanuvchiga avto_info funksiyasi yordamida bir nechta avtolar haqida ma'lumotlarni bitta ro'yxatga joylash imkonini beruvchi funksiya"""
+#     avtolar=[] # salondagi avtolar uchun bo'sh ro'yxat
+#     while True:
+#         print("\nQuyidagi ma'lumotlarni kiriting",end='')
+#         kompaniya=input("Ishlab chiqaruvchi: ")
+#         model=input("Modeli: ")
+#         rangi=input("Rangi: ")
+#         korobka=input("Korobka: ")
+#         yili=input("Ishlab chiqarilgan yili: ")
+#         narhi=input("Narhi: ")    
+#         #Foydalanuvchi kiritdan ma'lumotlardan avto_info yordamida 
+#         #lug'at shakllantirib, har bir lug'atni ro'yxatga qo'shamiz:
+#         avtolar.append(avto_info(kompaniya, model, rangi, korobka, yili, narhi))    
+#         # Yana avto qo'shish-qo'shmaslikni so'raymiz
+#         javob = input("Yana avto qo'shasizmi? (yes/no): ")
+#         if javob=='no':
+#             break
+#     return avtolar
+
+# def info_print(avto_info):
+# """Avtomobillar haqida ma'lumotlar saqlangan lug'atni konsolga chiqaruvchi funksiya"""
+# print(f"{avto_info['rang'].title()} {avto_info['kompaniya'].upper()} "
+#       f"{avto_info['model'].upper()}, {avto_info['korobka']} korobka, "
+#       f"{avto_info['yil']}-yil, {avto_info['narh']}$")
+
+
+
+
